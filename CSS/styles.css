@@ -6,10 +6,26 @@
 }
 
 /* Main - Styling */
+
+@font-face {
+  font-family: HankenGrotesk;
+  src: url(/fonts/HankenGrotesk-Medium.ttf) format(truetype), url(/fonts/HankenGrotesk-ExtraBold.ttf);
+}
+.visually-hidden:not(:focus):not(:active){
+  position: relative;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+  margin: -10px auto;
+
+}
 html,
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
   line-height: 1.7em;
+  font-family: HankenGrotesk;
+  
 }
 
 a {
